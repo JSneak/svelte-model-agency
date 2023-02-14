@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradientModelOne {
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #fff1ea 50%, #fff1ea 100%);
+}
+
+.gradientModelTwo {
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #dbfaff 50%, #dbfaff 100%);
+}
+
+.gradientModelThree {
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #fe5d5f 50%, #fe5d5f 100%);
+}
+
+.gradientModelFour {
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #30344a 50%, #30344a 100%);
+}
