@@ -20,16 +20,16 @@
 	const jumpToSection = (section: number) => {
 		switch (section) {
 			case 0:
-				window.scrollTo(0, 0);
+				window.scrollTo({ top: 0, behavior: 'smooth' });
 				break;
 			case 1:
-				window.scrollTo(0, 1001);
+				window.scrollTo({ top: 1001, behavior: 'smooth' });
 				break;
 			case 2:
-				window.scrollTo(0, 2001);
+				window.scrollTo({ top: 2001, behavior: 'smooth' });
 				break;
 			case 3:
-				window.scrollTo(0, 3001);
+				window.scrollTo({ top: 3001, behavior: 'smooth' });
 				break;
 		}
 	};

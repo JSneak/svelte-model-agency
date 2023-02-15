@@ -41,16 +41,16 @@
 		console.log(section);
 		switch (section) {
 			case '/src/lib/assets/model1.png':
-				window.scrollTo(0, 0);
+				window.scrollTo({ top: 0, behavior: 'smooth' });
 				break;
 			case '/src/lib/assets/model2.jpeg':
-				window.scrollTo(0, 1001);
+				window.scrollTo({ top: 1001, behavior: 'smooth' });
 				break;
 			case '/src/lib/assets/model3.png':
-				window.scrollTo(0, 2001);
+				window.scrollTo({ top: 2001, behavior: 'smooth' });
 				break;
 			case '/src/lib/assets/model4.png':
-				window.scrollTo(0, 3001);
+				window.scrollTo({ top: 3001, behavior: 'smooth' });
 				break;
 		}
 	};
