@@ -1,9 +1,11 @@
 <script lang="ts">
 	export let onPage: boolean = false;
+	let innerWidth = 0;
 
-	$: widthAndHeight = onPage ? 16 : 8;
+	$: widthAndHeight = onPage ? (innerWidth >= 768 ? 16 : 8) : innerWidth >= 768 ? 8 : 4;
 </script>
 
+<svelte:window bind:innerWidth />
 <button on:click>
 	<svg
 		width={widthAndHeight}
