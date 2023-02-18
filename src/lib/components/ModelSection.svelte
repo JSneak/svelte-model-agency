@@ -1,17 +1,5 @@
 <script lang="ts">
-	type BioInfo = {
-		name: string;
-		picture: string;
-		nameColor: string;
-		gradient: string;
-		bgColor: string;
-		number: number;
-		height: number;
-		weight: number;
-		eyeColor: string;
-		hairColor: string;
-		bio: string;
-	};
+	import type { BioInfo } from '../../types/ModelSection.type';
 
 	export let bioInfo: BioInfo;
 </script>

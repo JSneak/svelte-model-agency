@@ -1,4 +1,4 @@
-import type BioInfo from '$lib/components/ModelSection.svelte';
+import type { BioInfo } from '../../types/ModelSection.type';
 import modelOne from '$lib/assets/model1.png';
 import modelTwo from '$lib/assets/model2.jpeg';
 import modelThree from '$lib/assets/model3.png';

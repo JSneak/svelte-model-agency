@@ -17,3 +17,7 @@
 .gradientModelFour {
 	background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #30344a 50%, #30344a 100%);
 }
+
+img {
+	pointer-events: none;
+}
