@@ -60,12 +60,12 @@
 	<div class="grid grid-cols-2 gap-8 h-48">
 		<div>
 			<p class="font-serif mb-5">Prev.</p>
-			<button on:click={() => jumpToSection(pictureState.src1)} class="block">
+			<button on:click={() => jumpToSection(pictureState.src1)}>
 				<img alt="PrevPerson" src={pictureState.src1} class="h-48" />
 			</button>
 		</div>
 		<div>
-			<button on:click={() => jumpToSection(pictureState.src2)} class="block">
+			<button on:click={() => jumpToSection(pictureState.src2)}>
 				<img alt="NextPerson" src={pictureState.src2} class="h-48" />
 			</button>
 		</div>
