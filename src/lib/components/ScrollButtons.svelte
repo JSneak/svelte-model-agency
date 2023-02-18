@@ -38,7 +38,6 @@
 	};
 
 	const jumpToSection = (section: string) => {
-		console.log(section);
 		switch (section) {
 			case '/src/lib/assets/model1.png':
 				window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -61,12 +60,12 @@
 	<div class="grid grid-cols-2 gap-8 h-48">
 		<div>
 			<p class="font-serif mb-5">Prev.</p>
-			<button on:click={() => jumpToSection(pictureState.src1)}>
+			<button on:click={() => jumpToSection(pictureState.src1)} class="inline-block">
 				<img alt="PrevPerson" src={pictureState.src1} class="h-48" />
 			</button>
 		</div>
 		<div>
-			<button on:click={() => jumpToSection(pictureState.src2)}>
+			<button on:click={() => jumpToSection(pictureState.src2)} class="inline-block">
 				<img alt="NextPerson" src={pictureState.src2} class="h-48" />
 			</button>
 		</div>
