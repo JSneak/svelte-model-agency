@@ -38,6 +38,7 @@
 	};
 
 	const jumpToSection = (section: string) => {
+		console.log(section);
 		switch (section) {
 			case '/src/lib/assets/model1.png':
 				window.scrollTo({ top: 0, behavior: 'smooth' });
