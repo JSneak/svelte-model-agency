@@ -68,17 +68,17 @@
 </script>
 
 <svelte:window bind:scrollY={yCoord} />
-<div class="fixed bottom-0 left-10 z-20">
-	<div class="grid grid-cols-2 gap-8 h-48">
+<div class="fixed bottom-0 z-20 left-3 md:left-10">
+	<div class="grid grid-cols-2 gap-4 h-32 md:h-48">
 		<div>
 			<p class="font-serif mb-5">Prev.</p>
 			<button on:click={() => jumpToSection(pictureState.src1Id)}>
-				<img alt="PrevPerson" src={pictureState.src1} class="h-48" />
+				<img alt="PrevPerson" src={pictureState.src1} class="h-32 md:h-48" />
 			</button>
 		</div>
 		<div>
 			<button on:click={() => jumpToSection(pictureState.src2Id)}>
-				<img alt="NextPerson" src={pictureState.src2} class="h-48" />
+				<img alt="NextPerson" src={pictureState.src2} class="h-32 md:h-48" />
 			</button>
 		</div>
 	</div>
